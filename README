@@ -1,0 +1,71 @@
+php-imagick
+------------------------------------------
+PHP ImageMagick bindings
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  libMagick10-6.3.6.3-1
+  php-5.2.5-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  php-pear-5.2.5-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://pecl.php.net/package/imagick
+
+Canonical download:
+  http://pecl.php.net/get/imagick
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-imagick-2.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-imagick-2.0.1-X.cygport all
+
+This will create:
+  /usr/src/php-imagick-2.0.1-X-src.tar.bz2
+  /usr/src/php-imagick-2.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/php5/conf.d/imagick.ini
+  /usr/lib/php/20060613/imagick.dll
+  /usr/share/doc/Cygwin/php-imagick-2.0.1.README
+  /usr/share/doc/php-imagick-2.0.1/CREDITS
+  /usr/share/doc/php-imagick-2.0.1/INSTALL
+  /usr/share/doc/php-imagick-2.0.1/TODO
+  /usr/share/pear/.registry/.channel.pecl.php.net/imagick.reg
+  /usr/share/pear/doc/imagick/CREDITS
+  /usr/share/pear/doc/imagick/INSTALL
+  /usr/share/pear/doc/imagick/TODO
+  /usr/share/pear/doc/imagick/examples/captcha.php
+  /usr/share/pear/doc/imagick/examples/polygon.php
+  /usr/share/pear/doc/imagick/examples/thumbnail.php
+  /usr/share/pear/doc/imagick/examples/watermark.php
+
+------------------
+
+Port Notes:
+
+----- version 2.0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

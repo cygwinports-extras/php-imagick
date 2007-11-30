@@ -1,0 +1,4 @@
+category: Graphics PHP
+requires: cygwin libMagick10 php
+sdesc: "PHP ImageMagick bindings"
+ldesc: "PHP ImageMagick bindings"
