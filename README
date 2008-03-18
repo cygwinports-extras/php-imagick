@@ -4,7 +4,7 @@ PHP ImageMagick bindings
 
 Runtime requirements:
   cygwin-1.5.25-7
-  libMagick10-6.3.6.3-1
+  libMagick1-6.3.9.8-1
   php-5.2.5-1
 
 Build requirements:
@@ -63,7 +63,7 @@ Files included in the binary package:
 Port Notes:
 
 ----- version 2.1.1-1 -----
-Version bump.
+Version bump, built for ImageMagick-6.3.9.
 
 ----- version 2.0.1-1 -----
 Initial release for Cygwin.

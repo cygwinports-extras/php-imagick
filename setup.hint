@@ -1,4 +1,4 @@
 category: Graphics PHP
-requires: cygwin libMagick10 php
+requires: cygwin libMagick1 php
 sdesc: "PHP ImageMagick bindings"
 ldesc: "PHP ImageMagick bindings"
